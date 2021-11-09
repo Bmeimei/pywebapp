@@ -12,9 +12,10 @@ class Default:
         web.header('Content-Type', 'text/html')
         hostname = socket.gethostname()
         return """<html>
-        <title>Hello World!</title>
+        <title>PyWebApp</title>
         <body bgcolor="white">
-        <h1>Farnaz</h1>
+        <h1>Hello World!!!</h1>
+        <h1>FROM Honghai Mei A01075487</h1>
         <p>Available API methods:</p>
         <ul>
         <li><a href="/api/v1/test">/api/v1/test</a></li>
